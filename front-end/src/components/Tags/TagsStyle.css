@@ -1,0 +1,32 @@
+#contents #tags{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding: 0 24px;
+    gap: 12px;
+    width: 100%;
+    position: static;
+    top: 0;
+    z-index: 10;
+    margin-bottom: 24px;
+    background: #fff;
+}
+
+#contents #tags .-item{
+    display: flex;
+    height: 32px;
+    padding: 0 12px;
+    background-color: #f2f2f2;
+    color: #000;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 1.4rem;
+}
+
+#contents #tags .-item:hover{
+    background-color: #e5e5e5;
+}
+#contents #tags .-item.-active{
+    background-color: #000 !important;
+    color: #fff;
+}
